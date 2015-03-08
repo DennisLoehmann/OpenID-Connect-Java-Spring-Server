@@ -44,7 +44,7 @@ import com.google.common.collect.Iterables;
 @Service("uuidPairwiseIdentiferService")
 public class UUIDPairwiseIdentiferService implements PairwiseIdentiferService {
 
-	private static Logger logger = LoggerFactory.getLogger(UUIDPairwiseIdentiferService.class);
+	private static final Logger logger = LoggerFactory.getLogger(UUIDPairwiseIdentiferService.class);
 
 	@Autowired
 	private PairwiseIdentifierRepository pairwiseIdentifierRepository;

@@ -49,7 +49,7 @@ import com.nimbusds.jwt.SignedJWT;
 @Service
 public class ConnectTokenEnhancer implements TokenEnhancer {
 
-	Logger logger = LoggerFactory.getLogger(ConnectTokenEnhancer.class);
+	private static final Logger logger = LoggerFactory.getLogger(ConnectTokenEnhancer.class);
 
 	@Autowired
 	private ConfigurationPropertiesBean configBean;

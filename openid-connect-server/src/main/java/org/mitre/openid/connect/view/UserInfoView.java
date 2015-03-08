@@ -50,7 +50,7 @@ public class UserInfoView extends AbstractView {
 
 	public static final String VIEWNAME = "userInfoView";
 
-	private static Logger logger = LoggerFactory.getLogger(UserInfoView.class);
+	private static final Logger logger = LoggerFactory.getLogger(UserInfoView.class);
 
 	@Autowired
 	private ScopeClaimTranslationService translator;

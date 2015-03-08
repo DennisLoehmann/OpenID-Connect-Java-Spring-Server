@@ -59,7 +59,7 @@ import com.nimbusds.jwt.SignedJWT;
 @Component(UserInfoJWTView.VIEWNAME)
 public class UserInfoJWTView extends UserInfoView {
 
-	private static Logger logger = LoggerFactory.getLogger(UserInfoJWTView.class);
+	private static final Logger logger = LoggerFactory.getLogger(UserInfoJWTView.class);
 
 	public static final String VIEWNAME = "userInfoJwtView";
 

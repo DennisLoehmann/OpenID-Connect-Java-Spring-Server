@@ -82,7 +82,7 @@ public class ProtectedResourceRegistrationEndpoint {
 	@Autowired
 	private OIDCTokenService connectTokenService;
 
-	private static Logger logger = LoggerFactory.getLogger(ProtectedResourceRegistrationEndpoint.class);
+	private static final Logger logger = LoggerFactory.getLogger(ProtectedResourceRegistrationEndpoint.class);
 
 	/**
 	 * Create a new Client, issue a client ID, and create a registration access token.

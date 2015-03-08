@@ -59,7 +59,7 @@ import com.nimbusds.jose.JWSAlgorithm;
 @SuppressWarnings(value = {"rawtypes", "unchecked"})
 public class JsonUtils {
 
-	private static Logger logger = LoggerFactory.getLogger(JsonUtils.class);
+	private static final Logger logger = LoggerFactory.getLogger(JsonUtils.class);
 	
 	private static Gson gson = new Gson();
 

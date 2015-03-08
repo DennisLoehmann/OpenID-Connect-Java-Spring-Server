@@ -52,7 +52,7 @@ import com.google.gson.JsonSerializer;
 @Component(JsonApprovedSiteView.VIEWNAME)
 public class JsonApprovedSiteView extends AbstractView {
 
-	private static Logger logger = LoggerFactory.getLogger(JsonApprovedSiteView.class);
+	private static final Logger logger = LoggerFactory.getLogger(JsonApprovedSiteView.class);
 
 	public static final String VIEWNAME = "jsonApprovedSiteView";
 

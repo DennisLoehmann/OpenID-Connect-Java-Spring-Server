@@ -47,7 +47,7 @@ import com.google.gson.JsonObject;
 @Component("webfingerView")
 public class WebfingerView extends AbstractView {
 
-	private static Logger logger = LoggerFactory.getLogger(WebfingerView.class);
+	private static final Logger logger = LoggerFactory.getLogger(WebfingerView.class);
 
 	private Gson gson = new GsonBuilder()
 	.setExclusionStrategies(new ExclusionStrategy() {

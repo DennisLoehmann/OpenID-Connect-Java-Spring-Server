@@ -46,7 +46,7 @@ import com.google.common.collect.Collections2;
 @Service("defaultApprovedSiteService")
 public class DefaultApprovedSiteService implements ApprovedSiteService {
 
-	private static Logger logger = LoggerFactory.getLogger(DefaultApprovedSiteService.class);
+	private static final Logger logger = LoggerFactory.getLogger(DefaultApprovedSiteService.class);
 
 	@Autowired
 	private ApprovedSiteRepository approvedSiteRepository;

@@ -48,7 +48,7 @@ public class TokenApiView extends AbstractView {
 
 	public static final String VIEWNAME = "tokenApiView";
 
-	private static Logger logger = LoggerFactory.getLogger(JsonEntityView.class);
+	private static final Logger logger = LoggerFactory.getLogger(JsonEntityView.class);
 
 	private Gson gson = new GsonBuilder()
 	.setExclusionStrategies(new ExclusionStrategy() {

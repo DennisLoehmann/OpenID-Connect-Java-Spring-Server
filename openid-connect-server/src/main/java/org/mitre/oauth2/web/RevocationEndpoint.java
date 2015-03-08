@@ -40,7 +40,7 @@ public class RevocationEndpoint {
 	@Autowired
 	OAuth2TokenEntityService tokenServices;
 
-	private static Logger logger = LoggerFactory.getLogger(RevocationEndpoint.class);
+	private static final Logger logger = LoggerFactory.getLogger(RevocationEndpoint.class);
 
 	@PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT')")
 	@RequestMapping("/revoke")

@@ -56,7 +56,7 @@ public class BlacklistAPI {
 	@Autowired
 	private BlacklistedSiteService blacklistService;
 
-	private static Logger logger = LoggerFactory.getLogger(BlacklistAPI.class);
+	private static final Logger logger = LoggerFactory.getLogger(BlacklistAPI.class);
 
 	private Gson gson = new Gson();
 	private JsonParser parser = new JsonParser();

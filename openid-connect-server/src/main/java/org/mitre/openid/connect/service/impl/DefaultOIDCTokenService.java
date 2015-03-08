@@ -68,7 +68,7 @@ import com.nimbusds.jwt.SignedJWT;
 @Service
 public class DefaultOIDCTokenService implements OIDCTokenService {
 
-	Logger logger = LoggerFactory.getLogger(DefaultOIDCTokenService.class);
+	private static final Logger logger = LoggerFactory.getLogger(DefaultOIDCTokenService.class);
 
 	@Autowired
 	private JWTSigningAndValidationService jwtService;

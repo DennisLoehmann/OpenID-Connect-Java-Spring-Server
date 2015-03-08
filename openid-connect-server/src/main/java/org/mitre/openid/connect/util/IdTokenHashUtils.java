@@ -37,7 +37,7 @@ import com.nimbusds.jose.util.Base64URL;
  */
 public class IdTokenHashUtils {
 
-	private static Logger logger = LoggerFactory.getLogger(IdTokenHashUtils.class);
+	private static final Logger logger = LoggerFactory.getLogger(IdTokenHashUtils.class);
 
 	/**
 	 * Compute the SHA hash of an authorization code

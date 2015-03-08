@@ -56,7 +56,7 @@ public class WhitelistAPI {
 	@Autowired
 	private WhitelistedSiteService whitelistService;
 
-	private static Logger logger = LoggerFactory.getLogger(WhitelistAPI.class);
+	private static final Logger logger = LoggerFactory.getLogger(WhitelistAPI.class);
 
 	private Gson gson = new Gson();
 	private JsonParser parser = new JsonParser();
